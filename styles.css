@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #505a74;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#gameboard {
+  overflow: hidden;
+  height: 90%;
+  width: 80%;
+  color: white;
+  border-radius: 25px;
+}
+
+#gameboard__top {
+  height: 125px;
+  width: 100%;
+  background-color: #022954;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#gameboard__top--details {
+  display: flex;
+  font-weight: 600;
+  font-size: 22px;
+  gap: 20px;
+  align-items: center;
+  color: #b0b8ce;
+}
+.box {
+  background-color: #b0b8ce;
+  color: #022954;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 15px 25px;
+  border-radius: 25%;
+}
+
+#gameboard__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  height: calc(100% - 125px);
+  background-color: #354c7c;
+  padding-top: 8px;
+}
+
+#bubble {
+  display: flex;
+  height: 65px;
+  width: 65px;
+  font-weight: 600;
+  font-size: 22px;
+  background-color: #b0b8ce;
+  color: #022954;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+#bubble:hover {
+  cursor: pointer;
+  background-color: #eaebfe;
+  color: #022954;
+}

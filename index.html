@@ -3,11 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bubble-Pop</title>
+    <title>Bubble-POP</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main id="main"></main>
-    <link rel="stylesheet" href="script.js" />
+    <div id="main">
+      <div id="gameboard">
+        <div id="gameboard__top">
+          <div id="gameboard__top--details">
+            <p>Number</p>
+            <div id="number" class="box">9</div>
+          </div>
+          <div id="gameboard__top--details">
+            <p>Timer</p>
+            <div id="timer" class="box">60</div>
+          </div>
+          <div id="gameboard__top--details">
+            <p>Score</p>
+            <div id="score" class="box">0</div>
+          </div>
+        </div>
+        <div id="gameboard__bottom"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
