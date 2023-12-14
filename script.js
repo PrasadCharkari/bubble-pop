@@ -1,4 +1,3 @@
-let randomBubbles = "";
 let randomBubblesVal;
 let scoreCount = 0;
 let cpuNumber = 0;
@@ -8,7 +7,8 @@ let timerCount = document.querySelector("#timer");
 let totalScore = document.querySelector("#score");
 
 function generateBubble() {
-  for (var i = 1; i <= 100; i++) {
+  let randomBubbles = "";
+  for (var i = 1; i <= 200; i++) {
     randomBubblesVal = Math.floor(Math.random() * 10 + 1);
     randomBubbles += `<div id="bubble">${randomBubblesVal}</div>`;
   }
